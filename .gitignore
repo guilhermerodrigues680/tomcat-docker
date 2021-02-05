@@ -1,4 +1,20 @@
+# Deploys webapps
+/webapps/*
+!/webapps/ROOT/
+/webapps/ROOT/*
+!/webapps/ROOT/index.html
+
+# Deploys webapps.dist
+/webapps.dist/*
+!webapps.dist/docs/
+!webapps.dist/examples/
+!webapps.dist/host-manager/
+!webapps.dist/manager/
+!webapps.dist/ROOT/
+
+# Logs
 /logs/*
 !/logs/.gitkeep
 
+# Outros
 .DS_Store
